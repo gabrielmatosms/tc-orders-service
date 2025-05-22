@@ -18,7 +18,7 @@ class ServiceClient:
             try:
                 response = await client.get(f"{self.customers_url}/api/v1/customers/{customer_id}")
                 if response.status_code == 200:
-                    return response.json()
+                    return await response.json()
                 return None
             except httpx.RequestError:
                 return None
@@ -29,7 +29,7 @@ class ServiceClient:
             try:
                 response = await client.get(f"{self.products_url}/api/v1/products/{product_id}")
                 if response.status_code == 200:
-                    return response.json()
+                    return await response.json()
                 return None
             except httpx.RequestError:
                 return None
@@ -42,7 +42,7 @@ class ServiceClient:
                 try:
                     response = await client.get(f"{self.products_url}/api/v1/products/{product_id}")
                     if response.status_code == 200:
-                        result[product_id] = response.json()
+                        result[product_id] = await response.json()
                 except httpx.RequestError:
                     continue
         return result
@@ -69,7 +69,7 @@ class ServiceClient:
                 }
                 response = await client.post(f"{self.payments_url}/api/v1/payments/", json=payment_data)
                 if response.status_code in (200, 201):
-                    return response.json()
+                    return await response.json()
                 return None
             except httpx.RequestError:
                 return None 
