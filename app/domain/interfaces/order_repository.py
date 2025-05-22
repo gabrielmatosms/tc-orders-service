@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
+from decimal import Decimal
 
 from app.domain.entities.order import Order, OrderDb, OrderStatus, PaymentStatus
 
@@ -27,4 +28,8 @@ class OrderRepository(ABC):
 
     @abstractmethod
     def update_payment_status(self, order_id: int, payment_status: PaymentStatus) -> Optional[OrderDb]:
+        pass
+
+    @abstractmethod
+    def update_total(self, order_id: int, total: Decimal) -> Optional[OrderDb]:
         pass 
