@@ -1,6 +1,6 @@
 ### Microserviço dos pedidos - Tech Challenge Fase 4
 
-# Service to take care of the orders
+# Serviço de controle dos pedidos
 
 This project is a backend application designed to manage orders and facilitate efficient customer service as the business expands. Using **FastAPI** with a **hexagonal architecture**, the application allows customers to place and track orders and allows administrators to manage products, customers, and orders. It’s built as a monolithic application with a **PostgreSQL** database, containerized for easy deployment using **Docker** and **Docker Compose**.
 
