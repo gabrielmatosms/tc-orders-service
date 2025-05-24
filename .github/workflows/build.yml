@@ -1,0 +1,28 @@
+name: Build Python App
+
+on:
+  workflow_run:
+    workflows: ["SonarCloud analysis"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Build finished
+        run: echo "✅ Build concluído com sucesso!"
