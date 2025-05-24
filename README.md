@@ -47,7 +47,7 @@ Video mostrando o funcionamento da pipeline - [https://www.youtube.com/watch?v=j
 ![Diagram de Micro-Servicos](https://github.com/user-attachments/assets/0ea2dc40-3047-4001-88b7-61858c7c9bc9)
 
 ### Cobertura de testes
-<img width="766" alt="image" src="https://github.com/user-attachments/assets/da528123-bdaf-4271-9f86-0d7fe2cbcb98" />
+<img width="766" alt="image" src="https://github.com/user-attachments/assets/6984af88-10b2-43f7-9d79-425093a41d97" />
 
 ### Pipeline CI/CD
 ![Untitled-2025-05-18-2204](https://github.com/user-attachments/assets/3b2b7ba2-6504-49ae-83b8-693eaae97ac8)
