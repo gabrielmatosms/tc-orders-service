@@ -40,6 +40,7 @@ This project follows a **hexagonal architecture** (also known as ports and adapt
 
 ### VIDEOS EXPLICATIVOS
 Video explicando a arquitetura dos microserviços - [https://www.youtube.com/watch?v=lWntA32xC7I](https://www.youtube.com/watch?v=lWntA32xC7I) - Fase 4
+
 Video mostrando o funcionamento da pipeline - [https://www.youtube.com/watch?v=j2fGOKqMIqY](https://youtu.be/j2fGOKqMIqY) - Fase 4
 
 ### Arquitetura dos microserviços
