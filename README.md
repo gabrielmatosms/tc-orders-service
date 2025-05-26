@@ -43,6 +43,8 @@ Video explicando a arquitetura dos microserviços - [https://www.youtube.com/wat
 
 Video mostrando o funcionamento da pipeline - [https://www.youtube.com/watch?v=j2fGOKqMIqY](https://youtu.be/j2fGOKqMIqY) - Fase 4
 
+Video mostrando o funcionamento dos microserviços - [https://www.youtube.com/watch?v=unvg_UvtrT0](https://www.youtube.com/watch?v=unvg_UvtrT0) - Fase 4
+
 ### Arquitetura dos microserviços
 ** Acesse o [miro](https://miro.com/app/board/uXjVIy2LsaY=/)
 ![Diagram de Micro-Servicos](https://github.com/user-attachments/assets/0ea2dc40-3047-4001-88b7-61858c7c9bc9)
